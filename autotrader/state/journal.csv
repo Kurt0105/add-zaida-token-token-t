@@ -1,0 +1,2 @@
+run_utc,signal_day,mode,equity,just_hold,cash,holdings,lights,orders,fees,lookback,buffer,note
+2026-11-10 13:11,2026-11-09,paper,100.00,99.65,100.00,BTC=0.00 ETH=0.00 SOL=0.00,BTC=off ETH=off SOL=off,none,0.0000,100,0.02,
