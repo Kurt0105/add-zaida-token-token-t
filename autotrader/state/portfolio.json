@@ -1,0 +1,24 @@
+{
+  "cash": 100.0,
+  "fees_paid": 0.0,
+  "halt_reason": "",
+  "halted": false,
+  "hold_units": {
+    "BTC": 0.0004474954330041999,
+    "ETH": 0.01585604671464448,
+    "SOL": 0.3919871468371001
+  },
+  "last_signal_day": "2026-11-09",
+  "missed_days": 0,
+  "mode": "paper",
+  "peak_equity": 100.0,
+  "start_capital": 100.0,
+  "started": "2026-11-10",
+  "ticks": 1,
+  "units": {
+    "BTC": 0.0,
+    "ETH": 0.0,
+    "SOL": 0.0
+  },
+  "worst_drawdown": 0.0
+}

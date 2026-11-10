@@ -1,0 +1,27 @@
+{
+  "mode": "paper",
+  "start_capital_usd": 100.0,
+  "history_start": "2021-06-17",
+  "universe": [
+    {"symbol": "BTC", "coinbase": "BTC-USD", "kraken": "XBTUSD"},
+    {"symbol": "ETH", "coinbase": "ETH-USD", "kraken": "ETHUSD"},
+    {"symbol": "SOL", "coinbase": "SOL-USD", "kraken": "SOLUSD"}
+  ],
+  "costs": {"fee_rate": 0.0025, "slippage": 0.001},
+  "execution": {"min_order_usd": 5.0, "rebalance_band": 0.05},
+  "risk": {
+    "vol_target": 0.3,
+    "vol_window": 30,
+    "max_total_exposure": 1.0,
+    "max_drawdown_halt": 0.35,
+    "max_price_gap": 0.02
+  },
+  "defaults": {"lookback": 100, "buffer": 0.02},
+  "tuning": {
+    "grid": {"lookback": [20, 50, 100, 150, 200], "buffer": [0.0, 0.02, 0.05]},
+    "retune_days": 7,
+    "train_days": 730,
+    "holdout_days": 180,
+    "min_sharpe_gain": 0.25
+  }
+}
